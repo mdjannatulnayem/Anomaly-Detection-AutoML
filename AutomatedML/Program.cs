@@ -40,4 +40,4 @@ var sampleData = new TransactionAnalysisEngine.ModelInput()
 var result = TransactionAnalysisEngine.Predict(sampleData);
 
 
-Console.WriteLine($"Predicted class:{result.Class_}");
+Console.WriteLine($"Predicted class:{result.Class}");
